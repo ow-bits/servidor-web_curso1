@@ -30,4 +30,4 @@ en relación al primero, se avanza en la variedad de stacks a servir.
 
 
 
-> NOTA : Al finalizar el  primer, se puede  invitar al alumnado a unirse también al segundo curso, además de informar de la existencia de los otros 2 cursos existentes ( Apache y Nginx 'por separado' ) ?
+> NOTA : Al finalizar el  primer, se puede  invitar al alumnado a unirse también al segundo curso, además de informar de la existencia de los otros 2 cursos ya existentes.
