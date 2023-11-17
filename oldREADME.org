@@ -1,0 +1,130 @@
+* servidores-web | curso - árbol de temas
+   --> Curso de Servidores y  Aplicaciones Web  ?
+
+* Orígenes y Arquitectura de la World Wide Web
+** Intro - orígenes históricos de la Web
+*** Arpanet en la era de la "Guerra Fría"
+*** De la red Arpanet y el Pentágono ...
+*** ... a "The Platform" : Tim Berners Lee y la WWW :
+**** protocolo http 
+**** el sistema de URLs / URIs
+**** protocolo https (comunicación via http cifrado )
+*** El ciberespacio hipertextual (+ hypermedia), sus mimbres :
+**** HTML (ej. de código fuente)
+**** +  CSS (ej. de código fuente): 'dando estilo a nuestras páginas'
+****  + unas gotitas de JavaScript (ej. de código fuente)
+*** El principal protocolo que internconecta virtualmente la web: TCP/IP
+
+
+* Tipos de Arquitectura Web
+** __ Arquitectura centralizada
+** __ Arquitectura distribuida - P2P 
+** __ Arquitecturas descentralizadas
+** Desmitificando 'la Nube' / Cloud
+
+      
+
+    
+* Conceptos básicos en una Arquitectura Web (Servidores) con ej. prácticos
+** Intro:
+*** aplicaciones Web (p. ej. Wordpress - LAMP ) ... : arquitectura (gráfico)
+*** paradigma de la web 'cliente/servidor'
+*** paradigma de la Web 'serverless'
+
+** http -
+*** inspeccionando 'get/post ...  requests' y viendo los 'headers'
+** API - ej. practicos : la Web y APIs
+**** la Web en miniatura - en tu navegador (Firefox, Chromium/Chrome, ...) ej. práctico
+**** openAPI - Swagger ?!
+
+* ..<>..
+* Albergando la Web: Hosting / Alojamiento
+** VPS - servidor virtual privado
+** Auto-alojamiento: Raspberry Pi / Orange Pi/ ...  SBC
+*** Internet empieza en tu casa - LAN
+*** LAN - WAN
+*** enrutar las peticiones Web a tu Pi - DMZ
+
+
+* >>>>>>>>>>>>>>>>>>>>>><
+
+
+* Virtualización / Contenedores para entornos de pruebas en tu PC
+** Docker - (mencionarlo )
+** LXC - contenedores Linux (predecesor de Docker)
+*** puesta en marcha
+
+* Operación del servicio Web en el sistema
+** Introducción
+*** procesos ("daemon") del sistema
+*** gestión remota el sistema via SSH
+****  >> Bash  redirigir al curso existente
+** daemon del servidor Web - SystemD
+** operando Apache2 con SystemD
+** operando Nginx con SystemdD
+** servidor Apache2 - instalarlo y mostrar una página HTML
+***** HTTP
+** servidor Nginx - instalarlo y mostrar una página HTML
+***** HTTP
+
+* Montando Stacks - fundamentos
+*** Stackless: Simple HTML + CSS
+**** Configuraciones y directivas esenciales
+**** servir imágenes, video, audio...  y otros tipos de fichero
+***** redirecciones / alias 
+** Stack LAMP
+*** PHP
+**** Apache2 - instalar módulos necesarios 
+**** Apache2 - instalarlo y servir HTML en base a PHP scripting
+**** Nginx - instalar módulos necesarios
+**** Nginx - instalarlo y servir HTML en base a PHP scripting
+
+*** Python
+**** Apache2 - instalar módulos necesarios 
+**** Apache2 - servir HTML en base a Python y WSGI
+**** Nginx - instalar módulos necesarios
+**** Nginx - servir HTML en base a Python y WSGI
+
+** Stack con NodeJS
+**** Apache2 - instalarlo módulos y hacer ajustes necesarios
+**** Apache2 - servir HTML en base a NodeJS scripting
+**** Nginx - instalarlo módulos y hacer ajustes necesarios
+**** Nginx - servir HTML en base a NodeJS scripting
+** ESPERA Stack con Tomcat (lenguaje Java) ?!
+
+* >> config. detalladas de  Apache2 -> redirigir al Curso "Apache " existente
+
+* >> config. detalladas de Nginx -> redirigir al Curso "Nginx  " existente
+
+
+* Entorno/Stack de producción simple
+** Intro. ( DNS, Firewall, etc… )
+
+** Montando Stacks en producción 
+
+** despliegue de un sitio Web HTML + PHP 
+*** nombres DNS + SSL para cifrado (inspirado en verticalia.work / vMAil)
+**** redireccionnar peticiones HTTP -> HTTPS
+****** certificados SSL (p.ej: Let's Encrypt) y Apache server
+
+** Resumen / Síntesis del curso
+
+
+
+
+* .. 
+
+* ESPERA (posibles extensiones del curso)
+
+
+* ESPERA Montando Stacks en producción Frontal+ Back
+** despliegue de un sitio Web HTML + PHP  con Frontal+ Back
+*** inspirado en verticalia.work
+
+* ESPERA Servidores Web configurados para tráfico masivo
+** Técnicas de balanceo de carga ?
+** Multiples sitios web con HAProxy ?
+*** con HAProxy Apache
+*** con HAProxy Nginx 
+
+
