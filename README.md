@@ -19,6 +19,8 @@ al que seguirá (en construcción )...
 
 ## Segunda parte del Curso 
 
+> NOTA : en repositorio dedicado, aparte
+
 2. “Servidores Web: Nginx y Apache”
 
 en relación al primero, se avanza en la variedad de stacks a servir.
