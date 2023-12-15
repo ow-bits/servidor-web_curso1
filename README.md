@@ -1,4 +1,4 @@
-# servidores-web_curso
+  # servidores-web_curso
 Curso  de Servidores Web - I 
 
 > Estructura del Curso de Servidores Web ( 2 partes :
@@ -12,10 +12,24 @@ Curso  de Servidores Web - I
 Conocimiento, configuración y gestión  remota de Servidores Web y un Stack LAMP (Wordpress como aplicación Web ejemplo - 'puesta en producción' ) 
 ```
 
+
+### Orígenes y mimbres de la WWW
+### Arquitectura de la WWW 
+### 'Hosting' (Alojamiento)
+### Introducción al cocepto de Servidor Web	 	 	 	
+### Servidor Web Apache en el contexto del Stack LAMP
+### PHP - (Wordpress ) en Servidor Web Apache 
+
+
+> PRACTICA :
+
 - LAMP - PHP8
 
 
 al que seguirá (en construcción )...
+
+
+
 
 ## Segunda parte del Curso 
 
